@@ -30,17 +30,21 @@
 
 3. Запустите программу с нужными аргументами:
 
-- Для чтения из файла JSON:
+- Для чтения данных из файла JSON:
 
   ```bash
   go run ./cmd/sibintek-test-task file output.txt data/data.json
   ```
 
-- Для чтения из файла JSON:
+  Результат вычисление записывается в файл `output.txt` (можно поменять название), данные берутся из файла `data.json` (внутри файла можно поменять данные)
 
-```bash
-go run ./cmd/sibintek-test-task stdin output.txt
-```
+- Для чтения данных из консоли:
+
+  ```bash
+  go run ./cmd/sibintek-test-task stdin output.txt
+  ```
+
+  Результат вычисление записывается в файл `output.txt` (можно поменять название), данные берутся из консоли (значения вводятся через пробел)
 
 ## Технологии
 
@@ -59,6 +63,8 @@ go run ./cmd/sibintek-test-task stdin output.txt
   "numbers": [1, 2, 3, 4, 5]
 }
 ```
+
+Файл с данными находится в директории `data/data.json`
 
 ## Контакты
 
