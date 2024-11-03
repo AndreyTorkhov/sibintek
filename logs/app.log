@@ -1,0 +1,154 @@
+2024/11/03 15:35:24 Successfully read JSON file
+2024/11/03 15:35:24 Successfully decoded JSON
+2024/11/03 15:35:24 Sum of all numbers: 15
+2024/11/03 15:35:29 HTTP GET request was successful with status 200
+2024/11/03 15:35:29 Response body: <!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <h1>Example Domain</h1>
+    <p>This domain is for use in illustrative examples in documents. You may use this
+    domain in literature without prior coordination or asking for permission.</p>
+    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
+</div>
+</body>
+</html>
+2024/11/03 15:41:47 Successfully read and parsed JSON file
+2024/11/03 15:41:47 Sum of all numbers: 15
+2024/11/03 15:41:48 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 15:43:29 Successfully read and parsed JSON file
+2024/11/03 15:43:29 Sum of all numbers: 15
+2024/11/03 15:43:30 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 15:44:50 Successfully read and parsed JSON file
+2024/11/03 15:44:50 Sum of all numbers: 15
+2024/11/03 15:45:01 Successfully read and parsed JSON file
+2024/11/03 15:45:02 Sum of all numbers: 15
+2024/11/03 15:45:12 Error: failed to perform HTTP GET request to https://example.com: Get "https://example.com": net/http: TLS handshake timeout
+2024/11/03 15:45:49 Successfully read and parsed JSON file
+2024/11/03 15:45:49 Sum of all numbers: 15
+2024/11/03 15:45:50 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 15:49:44 Successfully read and parsed input data
+2024/11/03 15:49:44 Sum of all numbers: 20
+2024/11/03 15:49:45 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 15:52:11 Successfully read numbers from file and input
+2024/11/03 15:52:11 Total sum of all numbers: 15
+2024/11/03 15:52:27 Successfully read numbers from file and input
+2024/11/03 15:52:28 Total sum of all numbers: 1
+2024/11/03 15:52:28 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 15:54:03 Total sum of all numbers: 1
+2024/11/03 15:54:04 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 15:55:21 Total sum of all numbers: 10
+2024/11/03 15:55:22 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 15:57:05 Total sum of all numbers: 12
+2024/11/03 15:57:06 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 15:58:24 Sum of numbers from input: 10
+2024/11/03 15:58:24 Total sum of all numbers: 10
+2024/11/03 15:58:25 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 15:59:23 Sum of numbers from input: 15
+2024/11/03 15:59:23 Total sum of all numbers: 15
+2024/11/03 15:59:24 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 16:00:31 Sum of numbers from file: 15
+2024/11/03 16:00:31 Sum of numbers from input: 0
+2024/11/03 16:00:31 Total sum of all numbers: 15
+2024/11/03 16:00:32 HTTP GET request to https://example.com was successful with status 200
+2024/11/03 16:50:50 Log initialized successfully
+2024/11/03 16:50:50 INFO: Application started
+2024/11/03 16:50:50 INFO: Loading configuration from C:\Users\AT\config.json
+2024/11/03 16:50:50 ERROR: failed to read config file at C:\Users\AT\config.json: open C:\Users\AT\config.json: The system cannot find the file specified.
+2024/11/03 16:51:32 Log initialized successfully
+2024/11/03 16:51:32 INFO: Application started
+2024/11/03 16:51:32 INFO: Loading configuration from C:\Users\AT\Desktop\sibintek\config.json
+2024/11/03 16:51:32 INFO: Configuration loaded successfully
+2024/11/03 16:51:32 INFO: Starting Run function
+2024/11/03 16:51:32 INFO: Source: file
+2024/11/03 16:51:32 INFO: Output file: output.txt
+2024/11/03 16:51:32 INFO: Data file: data/data.json
+2024/11/03 16:51:32 INFO: Reading numbers from file
+2024/11/03 16:51:32 INFO: Numbers read from file successfully
+2024/11/03 16:51:32 INFO: Sum of numbers: 15
+2024/11/03 16:51:32 INFO: Saving result to output.txt
+2024/11/03 16:51:32 INFO: Result saved successfully
+2024/11/03 16:51:32 INFO: Performing HTTP GET request to https://example.com
+2024/11/03 16:51:38 INFO: HTTP request successful
+2024/11/03 16:51:38 INFO: Application finished
+2024/11/03 16:52:31 Log initialized successfully
+2024/11/03 16:52:31 INFO: Application started
+2024/11/03 16:52:31 INFO: Loading configuration from C:\Users\AT\Desktop\sibintek\config.json
+2024/11/03 16:52:31 INFO: Configuration loaded successfully
+2024/11/03 16:52:31 INFO: Starting Run function
+2024/11/03 16:52:31 ERROR: invalid arguments: expected <source> <output_file> <data_file>
+2024/11/03 16:52:31 INFO: Application finished
+2024/11/03 16:53:39 Log initialized successfully
+2024/11/03 16:53:39 INFO: Application started
+2024/11/03 16:53:39 INFO: Loading configuration from C:\Users\AT\Desktop\sibintek\config.json
+2024/11/03 16:53:39 INFO: Configuration loaded successfully
+2024/11/03 16:53:39 INFO: Starting Run function
+2024/11/03 16:53:39 INFO: Reading numbers from stdin
+2024/11/03 16:53:47 INFO: Numbers read from stdin successfully
+2024/11/03 16:53:47 INFO: Sum of numbers: 85
+2024/11/03 16:53:47 INFO: Saving result to output.txt
+2024/11/03 16:53:47 INFO: Result saved successfully
+2024/11/03 16:53:47 INFO: Performing HTTP GET request to https://example.com
+2024/11/03 16:53:52 INFO: HTTP request successful
+2024/11/03 16:53:52 INFO: Application finished
+2024/11/03 16:58:47 Log initialized successfully
+2024/11/03 16:59:32 Log initialized successfully
+2024/11/03 17:03:23 Log initialized successfully
+2024/11/03 17:03:23 INFO: Starting Run function
+2024/11/03 17:03:23 INFO: Reading numbers from file: data/data.json
+2024/11/03 17:03:23 INFO: Numbers read from file successfully: [1 2 3 4 5]
+2024/11/03 17:03:23 INFO: Sum of numbers calculated: 15
+2024/11/03 17:03:23 INFO: Result saved to output.txt
+2024/11/03 17:03:23 INFO: Performing HTTP GET request to https://example.com
+2024/11/03 17:03:25 ERROR: HTTP request failed: failed to perform HTTP GET request: Get "https://example.com": read tcp 10.8.0.8:33471->93.184.215.14:443: wsarecv: An established connection was aborted by the software in your host machine.
+2024/11/03 17:04:00 Log initialized successfully
+2024/11/03 17:04:00 INFO: Starting Run function
+2024/11/03 17:04:00 INFO: Reading numbers from file: data/data.json
+2024/11/03 17:04:00 INFO: Numbers read from file successfully: [1 2 3 4 5]
+2024/11/03 17:04:00 INFO: Sum of numbers calculated: 15
+2024/11/03 17:04:00 INFO: Result saved to output.txt
+2024/11/03 17:04:00 INFO: Performing HTTP GET request to https://example.com
+2024/11/03 17:04:01 INFO: HTTP request to https://example.com returned status 200
+2024/11/03 17:04:37 Log initialized successfully
+2024/11/03 17:04:37 INFO: Starting Run function
+2024/11/03 17:04:37 INFO: Reading numbers from standard input
+2024/11/03 17:04:41 INFO: Numbers read from stdin successfully: []
+2024/11/03 17:04:41 INFO: Sum of numbers calculated: 0
+2024/11/03 17:04:41 INFO: Result saved to output.txt
+2024/11/03 17:04:41 INFO: Performing HTTP GET request to https://example.com
+2024/11/03 17:04:42 INFO: HTTP request to https://example.com returned status 200
